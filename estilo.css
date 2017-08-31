@@ -1,0 +1,17 @@
+
+body{
+    background: pink
+}
+h1{
+    color: white;
+    background: black;
+}
+.texto{
+    text-transform: uppercase
+}
+#btn{
+    font-size: 20px
+}
+li{
+    background: blueviolet
+}
