@@ -1,10 +1,26 @@
 
 body{
-    background: pink
+   
+    background: #191B1D
 }
+#cabecalho{
+   
+    background-image: url("img/eclipse.jpeg");
+    text-align: center;
+    height: 250px;
+   
+}
+.menu{
+    text-align: center;
+    background-color: #0C0C0F;
+    
+}
+
 h1{
-    color: white;
-    background: black;
+    color: white
+    
+     
+   
 }
 /*.texto{
     text-transform: uppercase
