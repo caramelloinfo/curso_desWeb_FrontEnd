@@ -4,17 +4,36 @@ body{
     background: #191B1D
 }
 #cabecalho{
-   
+    
     background-image: url("img/eclipse.jpeg");
     text-align: center;
     height: 250px;
    
 }
+.texto-cabecalho{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
 .menu{
     text-align: center;
-    background-color: #0C0C0F;
+    opacity: 0.6;
+    background-size: 20px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    background-color: #1F1F1F;
+    
     
 }
+.menu-item{
+    color: #FFFFFF;
+    font-size: 20px;
+    
+    
+    
+    
+}
+
 
 h1{
     color: white
@@ -22,12 +41,13 @@ h1{
      
    
 }
+#texto-evento{
+    text-align: center
+}
+
 /*.texto{
     text-transform: uppercase
 }*/
 #btn{
     font-size: 20px
-}
-li{
-    background: blueviolet
 }
