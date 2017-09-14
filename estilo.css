@@ -10,31 +10,25 @@ body{
     height: 250px;
    
 }
-.texto-cabecalho{
-    padding-top: 100px;
+#cabecalho-titulo{
+    padding-top: 70px;
     padding-bottom: 50px;
-    font-size: 50px;
+    color: white;
+    
 }
 #btn-menu{
-    
     opacity: 0.9;
-    
-    
     padding-bottom: 5px;
    
     
     
 }
 
-h1{
-    color: white
-    
-     
-   
-}
-#texto-evento{
+
+#texto-evento, #cabecalho-eventos{
     text-align: center
 }
+
 
 /*.texto{
     text-transform: uppercase

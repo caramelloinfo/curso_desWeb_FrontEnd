@@ -1,0 +1,58 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" href="estilo.css">	
+
+		<!-- para ficar responsivo -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	</head>
+	
+	<body>
+        
+        <section id="cabecalho"> <!-- seção cabeçalho -->
+		<!-- bootstrap -->
+            <title>Nome da página</title>
+            
+            <!-- OBS: verificar a verdadeira funcionalidade de jumbotron,
+estou usando aqui para poder visualizar melhor os resutados.
+Também estou usando grid, que de fato posso usar... 
+O grid separa meu site em blocos, só que sem a implementação
+do CSS não fica visual. Interessante remover parte do
+jumbotron assim que eu consegui colocar o CSS nos grid's.-->
+            <div class="container"> <!-- estou usando grid -->
+			    <div class="row"> <!-- Q1 -->
+			        <div class="col">
+				        <h1 class="display-3" id="cabecalho-titulo">Ciclo de Seminários</h1>
+			        </div>		
+                </div> <!-- Q1 -->
+                        
+		        <div class="row"> <!-- Q2 -->
+			        <div class="col" id="btn-menu">
+				        <div class="btn-group" role="group" aria-label="Basic example">
+  					        <button type="button" class="btn btn-dark">Item 1</button>
+  					        <button type="button" class="btn btn-dark">Item 2</button>
+					        <button type="button" class="btn btn-dark">Item 3</button>
+					        <button type="button" class="btn btn-dark">Item 4</button>
+					        <button type="button" class="btn btn-dark">Item 5</button>
+					        <button type="button" class="btn btn-dark">Item 6</button>
+				        </div>
+					</div>
+		        </div> <!-- Q2 -->
+        </section>
+    
+            <div class="jumbotron"> <!-- Q3 e Q4 --> <!-- criou uma espécie de caixa-->
+		        <div class="row"> 
+			        <div class="col"> <!-- Q3 -->
+				        <p class="texto" id="txt">
+					       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat tellus, ornare facilisis pellentesque non, blandit eu quam. Suspendisse quis tempor massa. Mauris laoreet nec dolor at gravida. Integer mi est, dignissim vel velit efficitur, tempor euismod justo. Vestibulum tellus arcu, vehicula hendrerit libero id, rhoncus bibendum arcu. 
+				        </p>
+				    </div>	
+			        <div class="col"> <!--Q4 -->
+				        <h3 id="texto-evento">Próximo Evento</h3>
+				        <img class="d-block w-100" src="./img/rede.jpg">
+			        </div> <!-- Q4 -->
+		        </div> <!-- Q3 -->
+	        </div> <!-- jumbotron -->
+    </body>
+</html>
